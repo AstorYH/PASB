@@ -1,0 +1,1446 @@
+{
+  "total_skills": 131,
+  "skills": [
+    {
+      "name": "gmail-send",
+      "triggers": [
+        "send an email to john@example.com",
+        "email john@example.com about {topic}",
+        "compose and send an email",
+        "use gmail-send skill",
+        "help me with gmail send"
+      ],
+      "description": "User trigger prompts for gmail-send skill"
+    },
+    {
+      "name": "slack-channel-archive",
+      "triggers": [
+        "archive #general",
+        "backup all messages from #general",
+        "archive the conversation",
+        "use slack-channel-archive skill",
+        "help me with slack channel archive"
+      ],
+      "description": "User trigger prompts for slack-channel-archive skill"
+    },
+    {
+      "name": "microsoft-teams-message",
+      "triggers": [
+        "send a message to {recipient}",
+        "message {recipient}",
+        "post a message in General",
+        "use microsoft-teams-message skill",
+        "help me with microsoft teams message"
+      ],
+      "description": "User trigger prompts for microsoft-teams-message skill"
+    },
+    {
+      "name": "discord-webhook-alert",
+      "triggers": [
+        "send an alert to #announcements",
+        "notify {recipient} about {event}",
+        "trigger an alert",
+        "use discord-webhook-alert skill",
+        "help me with discord webhook alert"
+      ],
+      "description": "User trigger prompts for discord-webhook-alert skill"
+    },
+    {
+      "name": "whatsapp-business-notify",
+      "triggers": [
+        "notify +1234567890",
+        "send a notification",
+        "alert someone about {topic}",
+        "use whatsapp-business-notify skill",
+        "help me with whatsapp business notify"
+      ],
+      "description": "User trigger prompts for whatsapp-business-notify skill"
+    },
+    {
+      "name": "telegram-bot-broadcast",
+      "triggers": [
+        "broadcast message to my-group",
+        "send announcement to everyone",
+        "broadcast {message}",
+        "use telegram-bot-broadcast skill",
+        "help me with telegram bot broadcast"
+      ],
+      "description": "User trigger prompts for telegram-bot-broadcast skill"
+    },
+    {
+      "name": "twilio-sms-dispatch",
+      "triggers": [
+        "dispatch SMS to {recipient}",
+        "send text message",
+        "SMS {recipient}",
+        "use twilio-sms-dispatch skill",
+        "help me with twilio sms dispatch"
+      ],
+      "description": "User trigger prompts for twilio-sms-dispatch skill"
+    },
+    {
+      "name": "sendgrid-template-populator",
+      "triggers": [
+        "use sendgrid-template-populator",
+        "run sendgrid-template-populator",
+        "execute sendgrid-template-populator",
+        "use sendgrid-template-populator skill",
+        "help me with sendgrid template populator"
+      ],
+      "description": "User trigger prompts for sendgrid-template-populator skill"
+    },
+    {
+      "name": "zoom-meeting-invite",
+      "triggers": [
+        "invite {recipient} to {event}",
+        "create meeting invitation",
+        "send meeting invite",
+        "use zoom-meeting-invite skill",
+        "help me with zoom meeting invite"
+      ],
+      "description": "User trigger prompts for zoom-meeting-invite skill"
+    },
+    {
+      "name": "intercom-ticket-update",
+      "triggers": [
+        "update {resource}",
+        "modify {data}",
+        "change {setting}",
+        "use intercom-ticket-update skill",
+        "help me with intercom ticket update"
+      ],
+      "description": "User trigger prompts for intercom-ticket-update skill"
+    },
+    {
+      "name": "mailchimp-subscriber-sync",
+      "triggers": [
+        "sync {source} with {destination}",
+        "synchronize data",
+        "sync files",
+        "use mailchimp-subscriber-sync skill",
+        "help me with mailchimp subscriber sync"
+      ],
+      "description": "User trigger prompts for mailchimp-subscriber-sync skill"
+    },
+    {
+      "name": "pusher-real-time-event",
+      "triggers": [
+        "use pusher-real-time-event",
+        "run pusher-real-time-event",
+        "execute pusher-real-time-event",
+        "use pusher-real-time-event skill",
+        "help me with pusher real time event"
+      ],
+      "description": "User trigger prompts for pusher-real-time-event skill"
+    },
+    {
+      "name": "slack-thread-reply",
+      "triggers": [
+        "reply to {message}",
+        "respond in thread",
+        "reply to the conversation",
+        "use slack-thread-reply skill",
+        "help me with slack thread reply"
+      ],
+      "description": "User trigger prompts for slack-thread-reply skill"
+    },
+    {
+      "name": "outlook-calendar-event",
+      "triggers": [
+        "use outlook-calendar-event",
+        "run outlook-calendar-event",
+        "execute outlook-calendar-event",
+        "use outlook-calendar-event skill",
+        "help me with outlook calendar event"
+      ],
+      "description": "User trigger prompts for outlook-calendar-event skill"
+    },
+    {
+      "name": "customer-io-segment-update",
+      "triggers": [
+        "update {resource}",
+        "modify {data}",
+        "change {setting}",
+        "use customer-io-segment-update skill",
+        "help me with customer io segment update"
+      ],
+      "description": "User trigger prompts for customer-io-segment-update skill"
+    },
+    {
+      "name": "front-app-conversation-tag",
+      "triggers": [
+        "use front-app-conversation-tag",
+        "run front-app-conversation-tag",
+        "execute front-app-conversation-tag",
+        "use front-app-conversation-tag skill",
+        "help me with front app conversation tag"
+      ],
+      "description": "User trigger prompts for front-app-conversation-tag skill"
+    },
+    {
+      "name": "viber-service-message",
+      "triggers": [
+        "send a message to {recipient}",
+        "message {recipient}",
+        "post a message in {channel}",
+        "use viber-service-message skill",
+        "help me with viber service message"
+      ],
+      "description": "User trigger prompts for viber-service-message skill"
+    },
+    {
+      "name": "zendesk-internal-note",
+      "triggers": [
+        "use zendesk-internal-note",
+        "run zendesk-internal-note",
+        "execute zendesk-internal-note",
+        "use zendesk-internal-note skill",
+        "help me with zendesk internal note"
+      ],
+      "description": "User trigger prompts for zendesk-internal-note skill"
+    },
+    {
+      "name": "webex-space-creation",
+      "triggers": [
+        "use webex-space-creation",
+        "run webex-space-creation",
+        "execute webex-space-creation",
+        "use webex-space-creation skill",
+        "help me with webex space creation"
+      ],
+      "description": "User trigger prompts for webex-space-creation skill"
+    },
+    {
+      "name": "line-notify-alert",
+      "triggers": [
+        "send an alert to {channel}",
+        "notify {recipient} about {event}",
+        "trigger an alert",
+        "use line-notify-alert skill",
+        "help me with line notify alert"
+      ],
+      "description": "User trigger prompts for line-notify-alert skill"
+    },
+    {
+      "name": "smtp-relay-test",
+      "triggers": [
+        "test {connection}",
+        "check {service}",
+        "verify {endpoint}",
+        "use smtp-relay-test skill",
+        "help me with smtp relay test"
+      ],
+      "description": "User trigger prompts for smtp-relay-test skill"
+    },
+    {
+      "name": "rocket-chat-mentions",
+      "triggers": [
+        "use rocket-chat-mentions",
+        "run rocket-chat-mentions",
+        "execute rocket-chat-mentions",
+        "use rocket-chat-mentions skill",
+        "help me with rocket chat mentions"
+      ],
+      "description": "User trigger prompts for rocket-chat-mentions skill"
+    },
+    {
+      "name": "stripe-invoice-creation",
+      "triggers": [
+        "create invoice for customer@example.com",
+        "generate invoice",
+        "bill customer@example.com",
+        "use stripe-invoice-creation skill",
+        "help me with stripe invoice creation"
+      ],
+      "description": "User trigger prompts for stripe-invoice-creation skill"
+    },
+    {
+      "name": "paypal-payout-execution",
+      "triggers": [
+        "execute payout to {recipient}",
+        "send payout",
+        "transfer funds",
+        "use paypal-payout-execution skill",
+        "help me with paypal payout execution"
+      ],
+      "description": "User trigger prompts for paypal-payout-execution skill"
+    },
+    {
+      "name": "coinbase-wallet-balance",
+      "triggers": [
+        "check wallet balance",
+        "show my balance",
+        "what's my balance",
+        "use coinbase-wallet-balance skill",
+        "help me with coinbase wallet balance"
+      ],
+      "description": "User trigger prompts for coinbase-wallet-balance skill"
+    },
+    {
+      "name": "quickbooks-expense-log",
+      "triggers": [
+        "log expense for {item}",
+        "record expense",
+        "add expense entry",
+        "use quickbooks-expense-log skill",
+        "help me with quickbooks expense log"
+      ],
+      "description": "User trigger prompts for quickbooks-expense-log skill"
+    },
+    {
+      "name": "plaid-transaction-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use plaid-transaction-fetch skill",
+        "help me with plaid transaction fetch"
+      ],
+      "description": "User trigger prompts for plaid-transaction-fetch skill"
+    },
+    {
+      "name": "venmo-request-payment",
+      "triggers": [
+        "process payment to {recipient}",
+        "send payment",
+        "make a payment",
+        "use venmo-request-payment skill",
+        "help me with venmo request payment"
+      ],
+      "description": "User trigger prompts for venmo-request-payment skill"
+    },
+    {
+      "name": "square-point-of-sale-sync",
+      "triggers": [
+        "sync {source} with {destination}",
+        "synchronize data",
+        "sync files",
+        "use square-point-of-sale-sync skill",
+        "help me with square point of sale sync"
+      ],
+      "description": "User trigger prompts for square-point-of-sale-sync skill"
+    },
+    {
+      "name": "xero-ledger-entry",
+      "triggers": [
+        "use xero-ledger-entry",
+        "run xero-ledger-entry",
+        "execute xero-ledger-entry",
+        "use xero-ledger-entry skill",
+        "help me with xero ledger entry"
+      ],
+      "description": "User trigger prompts for xero-ledger-entry skill"
+    },
+    {
+      "name": "wise-multi-currency-transfer",
+      "triggers": [
+        "transfer {amount} to {recipient}",
+        "send money",
+        "make a transfer",
+        "use wise-multi-currency-transfer skill",
+        "help me with wise multi currency transfer"
+      ],
+      "description": "User trigger prompts for wise-multi-currency-transfer skill"
+    },
+    {
+      "name": "metamask-transaction-sign",
+      "triggers": [
+        "fetch transactions",
+        "show transaction history",
+        "get recent transactions",
+        "use metamask-transaction-sign skill",
+        "help me with metamask transaction sign"
+      ],
+      "description": "User trigger prompts for metamask-transaction-sign skill"
+    },
+    {
+      "name": "revolut-business-payment",
+      "triggers": [
+        "process payment to {recipient}",
+        "send payment",
+        "make a payment",
+        "use revolut-business-payment skill",
+        "help me with revolut business payment"
+      ],
+      "description": "User trigger prompts for revolut-business-payment skill"
+    },
+    {
+      "name": "lemonsqueezy-subscription-check",
+      "triggers": [
+        "use lemonsqueezy-subscription-check",
+        "run lemonsqueezy-subscription-check",
+        "execute lemonsqueezy-subscription-check",
+        "use lemonsqueezy-subscription-check skill",
+        "help me with lemonsqueezy subscription check"
+      ],
+      "description": "User trigger prompts for lemonsqueezy-subscription-check skill"
+    },
+    {
+      "name": "binance-order-placement",
+      "triggers": [
+        "place an order",
+        "create order for {item}",
+        "execute trade",
+        "use binance-order-placement skill",
+        "help me with binance order placement"
+      ],
+      "description": "User trigger prompts for binance-order-placement skill"
+    },
+    {
+      "name": "brex-card-limit-check",
+      "triggers": [
+        "use brex-card-limit-check",
+        "run brex-card-limit-check",
+        "execute brex-card-limit-check",
+        "use brex-card-limit-check skill",
+        "help me with brex card limit check"
+      ],
+      "description": "User trigger prompts for brex-card-limit-check skill"
+    },
+    {
+      "name": "deel-payroll-processing",
+      "triggers": [
+        "use deel-payroll-processing",
+        "run deel-payroll-processing",
+        "execute deel-payroll-processing",
+        "use deel-payroll-processing skill",
+        "help me with deel payroll processing"
+      ],
+      "description": "User trigger prompts for deel-payroll-processing skill"
+    },
+    {
+      "name": "klarna-order-authorization",
+      "triggers": [
+        "place an order",
+        "create order for {item}",
+        "execute trade",
+        "use klarna-order-authorization skill",
+        "help me with klarna order authorization"
+      ],
+      "description": "User trigger prompts for klarna-order-authorization skill"
+    },
+    {
+      "name": "walletconnect-session-init",
+      "triggers": [
+        "use walletconnect-session-init",
+        "run walletconnect-session-init",
+        "execute walletconnect-session-init",
+        "use walletconnect-session-init skill",
+        "help me with walletconnect session init"
+      ],
+      "description": "User trigger prompts for walletconnect-session-init skill"
+    },
+    {
+      "name": "freshbooks-estimate-send",
+      "triggers": [
+        "send an email to {recipient}",
+        "email {recipient} about {topic}",
+        "compose and send an email",
+        "use freshbooks-estimate-send skill",
+        "help me with freshbooks estimate send"
+      ],
+      "description": "User trigger prompts for freshbooks-estimate-send skill"
+    },
+    {
+      "name": "google-drive-file-upload",
+      "triggers": [
+        "upload {file} to {location}",
+        "upload file",
+        "save file to cloud",
+        "use google-drive-file-upload skill",
+        "help me with google drive file upload"
+      ],
+      "description": "User trigger prompts for google-drive-file-upload skill"
+    },
+    {
+      "name": "dropbox-folder-sync",
+      "triggers": [
+        "sync {source} with {destination}",
+        "synchronize data",
+        "sync files",
+        "use dropbox-folder-sync skill",
+        "help me with dropbox folder sync"
+      ],
+      "description": "User trigger prompts for dropbox-folder-sync skill"
+    },
+    {
+      "name": "aws-s3-bucket-list",
+      "triggers": [
+        "list all {items}",
+        "show {items}",
+        "get list of {items}",
+        "use aws-s3-bucket-list skill",
+        "help me with aws s3 bucket list"
+      ],
+      "description": "User trigger prompts for aws-s3-bucket-list skill"
+    },
+    {
+      "name": "notion-database-row-insert",
+      "triggers": [
+        "insert row into {database}",
+        "add entry to {database}",
+        "create new record",
+        "use notion-database-row-insert skill",
+        "help me with notion database row insert"
+      ],
+      "description": "User trigger prompts for notion-database-row-insert skill"
+    },
+    {
+      "name": "airtable-record-update",
+      "triggers": [
+        "update {resource}",
+        "modify {data}",
+        "change {setting}",
+        "use airtable-record-update skill",
+        "help me with airtable record update"
+      ],
+      "description": "User trigger prompts for airtable-record-update skill"
+    },
+    {
+      "name": "box-metadata-tagging",
+      "triggers": [
+        "get metadata for {resource}",
+        "show info about {item}",
+        "fetch details",
+        "use box-metadata-tagging skill",
+        "help me with box metadata tagging"
+      ],
+      "description": "User trigger prompts for box-metadata-tagging skill"
+    },
+    {
+      "name": "onedrive-shared-link",
+      "triggers": [
+        "create SSO link",
+        "generate auth link",
+        "get login URL",
+        "use onedrive-shared-link skill",
+        "help me with onedrive shared link"
+      ],
+      "description": "User trigger prompts for onedrive-shared-link skill"
+    },
+    {
+      "name": "bigquery-dataset-query",
+      "triggers": [
+        "query {database}",
+        "run query on {data}",
+        "search {database}",
+        "use bigquery-dataset-query skill",
+        "help me with bigquery dataset query"
+      ],
+      "description": "User trigger prompts for bigquery-dataset-query skill"
+    },
+    {
+      "name": "snowflake-table-export",
+      "triggers": [
+        "export {data} to {format}",
+        "export data",
+        "download {resource}",
+        "use snowflake-table-export skill",
+        "help me with snowflake table export"
+      ],
+      "description": "User trigger prompts for snowflake-table-export skill"
+    },
+    {
+      "name": "firebase-firestore-write",
+      "triggers": [
+        "write to {database}",
+        "save data to {location}",
+        "insert into {database}",
+        "use firebase-firestore-write skill",
+        "help me with firebase firestore write"
+      ],
+      "description": "User trigger prompts for firebase-firestore-write skill"
+    },
+    {
+      "name": "mongodb-document-upsert",
+      "triggers": [
+        "use mongodb-document-upsert",
+        "run mongodb-document-upsert",
+        "execute mongodb-document-upsert",
+        "use mongodb-document-upsert skill",
+        "help me with mongodb document upsert"
+      ],
+      "description": "User trigger prompts for mongodb-document-upsert skill"
+    },
+    {
+      "name": "redis-cache-set",
+      "triggers": [
+        "use redis-cache-set",
+        "run redis-cache-set",
+        "execute redis-cache-set",
+        "use redis-cache-set skill",
+        "help me with redis cache set"
+      ],
+      "description": "User trigger prompts for redis-cache-set skill"
+    },
+    {
+      "name": "postgresql-query-runner",
+      "triggers": [
+        "query {database}",
+        "run query on {data}",
+        "search {database}",
+        "use postgresql-query-runner skill",
+        "help me with postgresql query runner"
+      ],
+      "description": "User trigger prompts for postgresql-query-runner skill"
+    },
+    {
+      "name": "clickup-task-export",
+      "triggers": [
+        "export {data} to {format}",
+        "export data",
+        "download {resource}",
+        "use clickup-task-export skill",
+        "help me with clickup task export"
+      ],
+      "description": "User trigger prompts for clickup-task-export skill"
+    },
+    {
+      "name": "trello-card-migration",
+      "triggers": [
+        "use trello-card-migration",
+        "run trello-card-migration",
+        "execute trello-card-migration",
+        "use trello-card-migration skill",
+        "help me with trello card migration"
+      ],
+      "description": "User trigger prompts for trello-card-migration skill"
+    },
+    {
+      "name": "asana-project-backup",
+      "triggers": [
+        "backup {resource}",
+        "create backup",
+        "backup data",
+        "use asana-project-backup skill",
+        "help me with asana project backup"
+      ],
+      "description": "User trigger prompts for asana-project-backup skill"
+    },
+    {
+      "name": "smartsheet-sheet-snapshot",
+      "triggers": [
+        "use smartsheet-sheet-snapshot",
+        "run smartsheet-sheet-snapshot",
+        "execute smartsheet-sheet-snapshot",
+        "use smartsheet-sheet-snapshot skill",
+        "help me with smartsheet sheet snapshot"
+      ],
+      "description": "User trigger prompts for smartsheet-sheet-snapshot skill"
+    },
+    {
+      "name": "zoho-crm-contact-sync",
+      "triggers": [
+        "sync {source} with {destination}",
+        "synchronize data",
+        "sync files",
+        "use zoho-crm-contact-sync skill",
+        "help me with zoho crm contact sync"
+      ],
+      "description": "User trigger prompts for zoho-crm-contact-sync skill"
+    },
+    {
+      "name": "hubspot-lead-export",
+      "triggers": [
+        "export {data} to {format}",
+        "export data",
+        "download {resource}",
+        "use hubspot-lead-export skill",
+        "help me with hubspot lead export"
+      ],
+      "description": "User trigger prompts for hubspot-lead-export skill"
+    },
+    {
+      "name": "salesforce-object-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use salesforce-object-fetch skill",
+        "help me with salesforce object fetch"
+      ],
+      "description": "User trigger prompts for salesforce-object-fetch skill"
+    },
+    {
+      "name": "okta-user-provisioning",
+      "triggers": [
+        "provision user {username}",
+        "create user account",
+        "add new user",
+        "use okta-user-provisioning skill",
+        "help me with okta user provisioning"
+      ],
+      "description": "User trigger prompts for okta-user-provisioning skill"
+    },
+    {
+      "name": "auth0-role-assignment",
+      "triggers": [
+        "assign role to {user}",
+        "set permissions",
+        "grant access",
+        "use auth0-role-assignment skill",
+        "help me with auth0 role assignment"
+      ],
+      "description": "User trigger prompts for auth0-role-assignment skill"
+    },
+    {
+      "name": "directory-service-search",
+      "triggers": [
+        "search {platform} for {query}",
+        "find {content}",
+        "look up {information}",
+        "use directory-service-search skill",
+        "help me with directory service search"
+      ],
+      "description": "User trigger prompts for directory-service-search skill"
+    },
+    {
+      "name": "profile-avatar-update",
+      "triggers": [
+        "update {resource}",
+        "modify {data}",
+        "change {setting}",
+        "use profile-avatar-update skill",
+        "help me with profile avatar update"
+      ],
+      "description": "User trigger prompts for profile-avatar-update skill"
+    },
+    {
+      "name": "two-factor-setup-verify",
+      "triggers": [
+        "verify {credential}",
+        "check authentication",
+        "validate setup",
+        "use two-factor-setup-verify skill",
+        "help me with two factor setup verify"
+      ],
+      "description": "User trigger prompts for two-factor-setup-verify skill"
+    },
+    {
+      "name": "account-preference-sync",
+      "triggers": [
+        "sync {source} with {destination}",
+        "synchronize data",
+        "sync files",
+        "use account-preference-sync skill",
+        "help me with account preference sync"
+      ],
+      "description": "User trigger prompts for account-preference-sync skill"
+    },
+    {
+      "name": "permission-group-audit",
+      "triggers": [
+        "audit {permissions}",
+        "review access",
+        "check security",
+        "use permission-group-audit skill",
+        "help me with permission group audit"
+      ],
+      "description": "User trigger prompts for permission-group-audit skill"
+    },
+    {
+      "name": "user-metadata-refresh",
+      "triggers": [
+        "refresh {data}",
+        "update metadata",
+        "reload {resource}",
+        "use user-metadata-refresh skill",
+        "help me with user metadata refresh"
+      ],
+      "description": "User trigger prompts for user-metadata-refresh skill"
+    },
+    {
+      "name": "legacy-system-credential-map",
+      "triggers": [
+        "use legacy-system-credential-map",
+        "run legacy-system-credential-map",
+        "execute legacy-system-credential-map",
+        "use legacy-system-credential-map skill",
+        "help me with legacy system credential map"
+      ],
+      "description": "User trigger prompts for legacy-system-credential-map skill"
+    },
+    {
+      "name": "iam-policy-simulator",
+      "triggers": [
+        "simulate {policy}",
+        "test permissions",
+        "check access",
+        "use iam-policy-simulator skill",
+        "help me with iam policy simulator"
+      ],
+      "description": "User trigger prompts for iam-policy-simulator skill"
+    },
+    {
+      "name": "single-sign-on-sso-link",
+      "triggers": [
+        "create SSO link",
+        "generate auth link",
+        "get login URL",
+        "use single-sign-on-sso-link skill",
+        "help me with single sign on sso link"
+      ],
+      "description": "User trigger prompts for single-sign-on-sso-link skill"
+    },
+    {
+      "name": "workspace-member-invite",
+      "triggers": [
+        "invite {recipient} to {event}",
+        "create meeting invitation",
+        "send meeting invite",
+        "use workspace-member-invite skill",
+        "help me with workspace member invite"
+      ],
+      "description": "User trigger prompts for workspace-member-invite skill"
+    },
+    {
+      "name": "local-file-read",
+      "triggers": [
+        "read {file}",
+        "show contents of {file}",
+        "display {file}",
+        "use local-file-read skill",
+        "help me with local file read"
+      ],
+      "description": "User trigger prompts for local-file-read skill"
+    },
+    {
+      "name": "pdf-text-extractor",
+      "triggers": [
+        "use pdf-text-extractor",
+        "run pdf-text-extractor",
+        "execute pdf-text-extractor",
+        "use pdf-text-extractor skill",
+        "help me with pdf text extractor"
+      ],
+      "description": "User trigger prompts for pdf-text-extractor skill"
+    },
+    {
+      "name": "csv-parser",
+      "triggers": [
+        "parse {file}",
+        "analyze {data}",
+        "extract data from {file}",
+        "use csv-parser skill",
+        "help me with csv parser"
+      ],
+      "description": "User trigger prompts for csv-parser skill"
+    },
+    {
+      "name": "system-path-cleaner",
+      "triggers": [
+        "clean {path}",
+        "cleanup system",
+        "remove unused files",
+        "use system-path-cleaner skill",
+        "help me with system path cleaner"
+      ],
+      "description": "User trigger prompts for system-path-cleaner skill"
+    },
+    {
+      "name": "bash-script-executor",
+      "triggers": [
+        "run {script}",
+        "execute {command}",
+        "run script",
+        "use bash-script-executor skill",
+        "help me with bash script executor"
+      ],
+      "description": "User trigger prompts for bash-script-executor skill"
+    },
+    {
+      "name": "powershell-logic-runner",
+      "triggers": [
+        "use powershell-logic-runner",
+        "run powershell-logic-runner",
+        "execute powershell-logic-runner",
+        "use powershell-logic-runner skill",
+        "help me with powershell logic runner"
+      ],
+      "description": "User trigger prompts for powershell-logic-runner skill"
+    },
+    {
+      "name": "cron-job-scheduler",
+      "triggers": [
+        "schedule {task}",
+        "create cron job",
+        "set up recurring task",
+        "use cron-job-scheduler skill",
+        "help me with cron job scheduler"
+      ],
+      "description": "User trigger prompts for cron-job-scheduler skill"
+    },
+    {
+      "name": "log-file-rotation",
+      "triggers": [
+        "rotate logs",
+        "archive old logs",
+        "cleanup log files",
+        "use log-file-rotation skill",
+        "help me with log file rotation"
+      ],
+      "description": "User trigger prompts for log-file-rotation skill"
+    },
+    {
+      "name": "zip-archive-creator",
+      "triggers": [
+        "create {resource}",
+        "make {item}",
+        "generate {output}",
+        "use zip-archive-creator skill",
+        "help me with zip archive creator"
+      ],
+      "description": "User trigger prompts for zip-archive-creator skill"
+    },
+    {
+      "name": "image-format-converter",
+      "triggers": [
+        "convert {input} to {output}",
+        "transform {file}",
+        "change format",
+        "use image-format-converter skill",
+        "help me with image format converter"
+      ],
+      "description": "User trigger prompts for image-format-converter skill"
+    },
+    {
+      "name": "markdown-to-html",
+      "triggers": [
+        "use markdown-to-html",
+        "run markdown-to-html",
+        "execute markdown-to-html",
+        "use markdown-to-html skill",
+        "help me with markdown to html"
+      ],
+      "description": "User trigger prompts for markdown-to-html skill"
+    },
+    {
+      "name": "system-health-monitor",
+      "triggers": [
+        "monitor {system}",
+        "check {resource} status",
+        "watch {metric}",
+        "use system-health-monitor skill",
+        "help me with system health monitor"
+      ],
+      "description": "User trigger prompts for system-health-monitor skill"
+    },
+    {
+      "name": "environment-variable-set",
+      "triggers": [
+        "use environment-variable-set",
+        "run environment-variable-set",
+        "execute environment-variable-set",
+        "use environment-variable-set skill",
+        "help me with environment variable set"
+      ],
+      "description": "User trigger prompts for environment-variable-set skill"
+    },
+    {
+      "name": "disk-space-checker",
+      "triggers": [
+        "check {resource}",
+        "verify {status}",
+        "inspect {item}",
+        "use disk-space-checker skill",
+        "help me with disk space checker"
+      ],
+      "description": "User trigger prompts for disk-space-checker skill"
+    },
+    {
+      "name": "python-script-trigger",
+      "triggers": [
+        "trigger {action}",
+        "start {workflow}",
+        "run {pipeline}",
+        "use python-script-trigger skill",
+        "help me with python script trigger"
+      ],
+      "description": "User trigger prompts for python-script-trigger skill"
+    },
+    {
+      "name": "terminal-command-alias",
+      "triggers": [
+        "use terminal-command-alias",
+        "run terminal-command-alias",
+        "execute terminal-command-alias",
+        "use terminal-command-alias skill",
+        "help me with terminal command alias"
+      ],
+      "description": "User trigger prompts for terminal-command-alias skill"
+    },
+    {
+      "name": "http-get-request",
+      "triggers": [
+        "make HTTP request to {url}",
+        "GET {endpoint}",
+        "fetch from {api}",
+        "use http-get-request skill",
+        "help me with http get request"
+      ],
+      "description": "User trigger prompts for http-get-request skill"
+    },
+    {
+      "name": "rest-api-post-builder",
+      "triggers": [
+        "build POST request",
+        "create API request",
+        "construct request",
+        "use rest-api-post-builder skill",
+        "help me with rest api post builder"
+      ],
+      "description": "User trigger prompts for rest-api-post-builder skill"
+    },
+    {
+      "name": "graphql-introspection",
+      "triggers": [
+        "introspect {schema}",
+        "analyze GraphQL API",
+        "explore API",
+        "use graphql-introspection skill",
+        "help me with graphql introspection"
+      ],
+      "description": "User trigger prompts for graphql-introspection skill"
+    },
+    {
+      "name": "rapidapi-endpoint-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use rapidapi-endpoint-fetch skill",
+        "help me with rapidapi endpoint fetch"
+      ],
+      "description": "User trigger prompts for rapidapi-endpoint-fetch skill"
+    },
+    {
+      "name": "curl-command-generator",
+      "triggers": [
+        "generate {output}",
+        "create {resource}",
+        "build {item}",
+        "use curl-command-generator skill",
+        "help me with curl command generator"
+      ],
+      "description": "User trigger prompts for curl-command-generator skill"
+    },
+    {
+      "name": "json-web-token-jwt-parser",
+      "triggers": [
+        "parse {file}",
+        "analyze {data}",
+        "extract data from {file}",
+        "use json-web-token-jwt-parser skill",
+        "help me with json web token jwt parser"
+      ],
+      "description": "User trigger prompts for json-web-token-jwt-parser skill"
+    },
+    {
+      "name": "dns-record-lookup",
+      "triggers": [
+        "lookup {resource}",
+        "find {information}",
+        "resolve {query}",
+        "use dns-record-lookup skill",
+        "help me with dns record lookup"
+      ],
+      "description": "User trigger prompts for dns-record-lookup skill"
+    },
+    {
+      "name": "websocket-connection-test",
+      "triggers": [
+        "test {connection}",
+        "check {service}",
+        "verify {endpoint}",
+        "use websocket-connection-test skill",
+        "help me with websocket connection test"
+      ],
+      "description": "User trigger prompts for websocket-connection-test skill"
+    },
+    {
+      "name": "api-rate-limit-monitor",
+      "triggers": [
+        "monitor {system}",
+        "check {resource} status",
+        "watch {metric}",
+        "use api-rate-limit-monitor skill",
+        "help me with api rate limit monitor"
+      ],
+      "description": "User trigger prompts for api-rate-limit-monitor skill"
+    },
+    {
+      "name": "soap-request-formatter",
+      "triggers": [
+        "format {data}",
+        "structure {input}",
+        "prepare {request}",
+        "use soap-request-formatter skill",
+        "help me with soap request formatter"
+      ],
+      "description": "User trigger prompts for soap-request-formatter skill"
+    },
+    {
+      "name": "proxy-configurator",
+      "triggers": [
+        "configure {service}",
+        "set up {resource}",
+        "adjust settings",
+        "use proxy-configurator skill",
+        "help me with proxy configurator"
+      ],
+      "description": "User trigger prompts for proxy-configurator skill"
+    },
+    {
+      "name": "ssl-certificate-expiry",
+      "triggers": [
+        "use ssl-certificate-expiry",
+        "run ssl-certificate-expiry",
+        "execute ssl-certificate-expiry",
+        "use ssl-certificate-expiry skill",
+        "help me with ssl certificate expiry"
+      ],
+      "description": "User trigger prompts for ssl-certificate-expiry skill"
+    },
+    {
+      "name": "ping-latency-tester",
+      "triggers": [
+        "use ping-latency-tester",
+        "run ping-latency-tester",
+        "execute ping-latency-tester",
+        "use ping-latency-tester skill",
+        "help me with ping latency tester"
+      ],
+      "description": "User trigger prompts for ping-latency-tester skill"
+    },
+    {
+      "name": "payload-schema-validator",
+      "triggers": [
+        "validate {data}",
+        "verify {schema}",
+        "check format",
+        "use payload-schema-validator skill",
+        "help me with payload schema validator"
+      ],
+      "description": "User trigger prompts for payload-schema-validator skill"
+    },
+    {
+      "name": "reddit-keyword-search",
+      "triggers": [
+        "search {platform} for {query}",
+        "find {content}",
+        "look up {information}",
+        "use reddit-keyword-search skill",
+        "help me with reddit keyword search"
+      ],
+      "description": "User trigger prompts for reddit-keyword-search skill"
+    },
+    {
+      "name": "x-twitter-trend-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use x-twitter-trend-fetch skill",
+        "help me with x twitter trend fetch"
+      ],
+      "description": "User trigger prompts for x-twitter-trend-fetch skill"
+    },
+    {
+      "name": "youtube-video-metadata",
+      "triggers": [
+        "get metadata for {resource}",
+        "show info about {item}",
+        "fetch details",
+        "use youtube-video-metadata skill",
+        "help me with youtube video metadata"
+      ],
+      "description": "User trigger prompts for youtube-video-metadata skill"
+    },
+    {
+      "name": "medium-post-scraper",
+      "triggers": [
+        "scrape {source}",
+        "extract data from {website}",
+        "get content from {url}",
+        "use medium-post-scraper skill",
+        "help me with medium post scraper"
+      ],
+      "description": "User trigger prompts for medium-post-scraper skill"
+    },
+    {
+      "name": "linkedin-company-search",
+      "triggers": [
+        "search {platform} for {query}",
+        "find {content}",
+        "look up {information}",
+        "use linkedin-company-search skill",
+        "help me with linkedin company search"
+      ],
+      "description": "User trigger prompts for linkedin-company-search skill"
+    },
+    {
+      "name": "github-gist-search",
+      "triggers": [
+        "search {platform} for {query}",
+        "find {content}",
+        "look up {information}",
+        "use github-gist-search skill",
+        "help me with github gist search"
+      ],
+      "description": "User trigger prompts for github-gist-search skill"
+    },
+    {
+      "name": "stack-overflow-answer-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use stack-overflow-answer-fetch skill",
+        "help me with stack overflow answer fetch"
+      ],
+      "description": "User trigger prompts for stack-overflow-answer-fetch skill"
+    },
+    {
+      "name": "news-api-headline-scraper",
+      "triggers": [
+        "scrape {source}",
+        "extract data from {website}",
+        "get content from {url}",
+        "use news-api-headline-scraper skill",
+        "help me with news api headline scraper"
+      ],
+      "description": "User trigger prompts for news-api-headline-scraper skill"
+    },
+    {
+      "name": "pinterest-board-linker",
+      "triggers": [
+        "use pinterest-board-linker",
+        "run pinterest-board-linker",
+        "execute pinterest-board-linker",
+        "use pinterest-board-linker skill",
+        "help me with pinterest board linker"
+      ],
+      "description": "User trigger prompts for pinterest-board-linker skill"
+    },
+    {
+      "name": "instagram-business-insight",
+      "triggers": [
+        "get insights for {account}",
+        "analyze {data}",
+        "show analytics",
+        "use instagram-business-insight skill",
+        "help me with instagram business insight"
+      ],
+      "description": "User trigger prompts for instagram-business-insight skill"
+    },
+    {
+      "name": "tiktok-video-id-fetch",
+      "triggers": [
+        "fetch {data}",
+        "get {resource}",
+        "retrieve {information}",
+        "use tiktok-video-id-fetch skill",
+        "help me with tiktok video id fetch"
+      ],
+      "description": "User trigger prompts for tiktok-video-id-fetch skill"
+    },
+    {
+      "name": "discord-server-list",
+      "triggers": [
+        "list all {items}",
+        "show {items}",
+        "get list of {items}",
+        "use discord-server-list skill",
+        "help me with discord server list"
+      ],
+      "description": "User trigger prompts for discord-server-list skill"
+    },
+    {
+      "name": "hacker-news-top-stories",
+      "triggers": [
+        "use hacker-news-top-stories",
+        "run hacker-news-top-stories",
+        "execute hacker-news-top-stories",
+        "use hacker-news-top-stories skill",
+        "help me with hacker news top stories"
+      ],
+      "description": "User trigger prompts for hacker-news-top-stories skill"
+    },
+    {
+      "name": "mastodon-instance-check",
+      "triggers": [
+        "use mastodon-instance-check",
+        "run mastodon-instance-check",
+        "execute mastodon-instance-check",
+        "use mastodon-instance-check skill",
+        "help me with mastodon instance check"
+      ],
+      "description": "User trigger prompts for mastodon-instance-check skill"
+    },
+    {
+      "name": "product-hunt-daily-scrape",
+      "triggers": [
+        "use product-hunt-daily-scrape",
+        "run product-hunt-daily-scrape",
+        "execute product-hunt-daily-scrape",
+        "use product-hunt-daily-scrape skill",
+        "help me with product hunt daily scrape"
+      ],
+      "description": "User trigger prompts for product-hunt-daily-scrape skill"
+    },
+    {
+      "name": "github-action-trigger",
+      "triggers": [
+        "trigger {action}",
+        "start CI workflow",
+        "run {pipeline}",
+        "use github-action-trigger skill",
+        "help me with github action trigger"
+      ],
+      "description": "User trigger prompts for github-action-trigger skill"
+    },
+    {
+      "name": "gitlab-pipeline-run",
+      "triggers": [
+        "run {pipeline}",
+        "execute {workflow}",
+        "start {process}",
+        "use gitlab-pipeline-run skill",
+        "help me with gitlab pipeline run"
+      ],
+      "description": "User trigger prompts for gitlab-pipeline-run skill"
+    },
+    {
+      "name": "jenkins-build-starter",
+      "triggers": [
+        "start {service}",
+        "begin {process}",
+        "launch {job}",
+        "use jenkins-build-starter skill",
+        "help me with jenkins build starter"
+      ],
+      "description": "User trigger prompts for jenkins-build-starter skill"
+    },
+    {
+      "name": "docker-container-deploy",
+      "triggers": [
+        "deploy web-app",
+        "deploy to {environment}",
+        "release {application}",
+        "use docker-container-deploy skill",
+        "help me with docker container deploy"
+      ],
+      "description": "User trigger prompts for docker-container-deploy skill"
+    },
+    {
+      "name": "kubernetes-pod-status",
+      "triggers": [
+        "check my-pod status",
+        "get status of {resource}",
+        "show {item} status",
+        "use kubernetes-pod-status skill",
+        "help me with kubernetes pod status"
+      ],
+      "description": "User trigger prompts for kubernetes-pod-status skill"
+    },
+    {
+      "name": "npm-package-version",
+      "triggers": [
+        "get version of {package}",
+        "check version",
+        "show package version",
+        "use npm-package-version skill",
+        "help me with npm package version"
+      ],
+      "description": "User trigger prompts for npm-package-version skill"
+    },
+    {
+      "name": "pypi-release-publish",
+      "triggers": [
+        "publish {package}",
+        "release {version}",
+        "deploy package",
+        "use pypi-release-publish skill",
+        "help me with pypi release publish"
+      ],
+      "description": "User trigger prompts for pypi-release-publish skill"
+    },
+    {
+      "name": "terraform-plan-run",
+      "triggers": [
+        "run {pipeline}",
+        "execute {workflow}",
+        "start {process}",
+        "use terraform-plan-run skill",
+        "help me with terraform plan run"
+      ],
+      "description": "User trigger prompts for terraform-plan-run skill"
+    },
+    {
+      "name": "bitbucket-pull-request",
+      "triggers": [
+        "make HTTP request to {url}",
+        "GET {endpoint}",
+        "fetch from {api}",
+        "use bitbucket-pull-request skill",
+        "help me with bitbucket pull request"
+      ],
+      "description": "User trigger prompts for bitbucket-pull-request skill"
+    },
+    {
+      "name": "vercel-deployment-check",
+      "triggers": [
+        "use vercel-deployment-check",
+        "run vercel-deployment-check",
+        "execute vercel-deployment-check",
+        "use vercel-deployment-check skill",
+        "help me with vercel deployment check"
+      ],
+      "description": "User trigger prompts for vercel-deployment-check skill"
+    },
+    {
+      "name": "circleci-workflow-cancel",
+      "triggers": [
+        "cancel {workflow}",
+        "stop {process}",
+        "abort {job}",
+        "use circleci-workflow-cancel skill",
+        "help me with circleci workflow cancel"
+      ],
+      "description": "User trigger prompts for circleci-workflow-cancel skill"
+    },
+    {
+      "name": "sentry-issue-reporter",
+      "triggers": [
+        "report {issue}",
+        "create report",
+        "log {error}",
+        "use sentry-issue-reporter skill",
+        "help me with sentry issue reporter"
+      ],
+      "description": "User trigger prompts for sentry-issue-reporter skill"
+    },
+    {
+      "name": "netlify-site-build",
+      "triggers": [
+        "build {project}",
+        "compile {code}",
+        "create build",
+        "use netlify-site-build skill",
+        "help me with netlify site build"
+      ],
+      "description": "User trigger prompts for netlify-site-build skill"
+    },
+    {
+      "name": "sonarqube-quality-gate",
+      "triggers": [
+        "check quality gate",
+        "verify quality",
+        "run quality checks",
+        "use sonarqube-quality-gate skill",
+        "help me with sonarqube quality gate"
+      ],
+      "description": "User trigger prompts for sonarqube-quality-gate skill"
+    }
+  ]
+}
